@@ -132,15 +132,12 @@ def help():
         print("------------------------------------------------------------------------\n")
         print("-h           help")
         print("-t           target IP address")
-        print("-r           IP file")
-        print("           -I file.txt(.xls|xlsx)")
         print("-p           port")
         print("           -p 80,8000-9000")
         print("-o           output file ")
-        print("--t          thread number ")
+        print("--t          thread number default 100")
         print()
         print("Usage:   python3 Nscan.py -t 192.168.100.0/24 -p 80,8080-10000 -o test.txt")
-        print("         python3 Nscan.py -r file.txt -p 80-2333 -o test.txt")
         print("----------------------------------------------------------------------\n\n")
 
 
